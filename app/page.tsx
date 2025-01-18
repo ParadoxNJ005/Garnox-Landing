@@ -1,13 +1,12 @@
 "use client"
 
-import { Logo } from '@/components/logo'
-import { FeatureList } from '@/components/feature-list'
-import { DownloadButtons } from '@/components/download-buttons'
-import { AppScreenshots } from '@/components/app-screenshots'
-import { DeveloperShowcase } from '@/components/developer-showcase'
-import { ThemeSwitch } from '@/components/theme-switch'
-import { Button } from '@/components/ui/button'
-import { Cards } from '@/components/Cards'
+import { Logo } from '../components/logo'
+import { FeatureList } from '../components/feature-list'
+import { DownloadButtons } from '../components/download-buttons'
+import { DeveloperShowcase } from '../components/developer-showcase'
+import { ThemeSwitch } from '../components/theme-switch'
+import { Button } from '../components/ui/button'
+import { Cards } from '../components/Cards'
 
 export default function Home() {
   return (
