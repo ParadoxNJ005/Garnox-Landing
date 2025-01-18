@@ -48,7 +48,7 @@ export default function Home() {
             <section className="text-center mb-16">
               <h2 className="text-3xl font-semibold mb-6 text-blue-800 dark:text-blue-300">Admin Access</h2>
               <Button 
-                onClick={() => window.open('https://admin.sembreaker.com', '_blank')}
+                onClick={() => window.open('https://garnox-web.vercel.app/', '_blank')}
                 className="bg-purple-600 hover:bg-purple-700 dark:bg-purple-700 dark:hover:bg-purple-800 text-white font-bold py-2 px-4 rounded"
               >
                 Open Admin Website
