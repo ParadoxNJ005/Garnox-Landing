@@ -3,8 +3,12 @@ import { Button } from '../components/ui/button'
 
 export function DownloadButtons() {
   const handleDownload = (store: string) => {
-    alert(`Coming soon to ${store}!`)
-  }
+    if (store === 'Play Store') {
+      window.location.href = "https://play.google.com/store/apps/details?id=com.garnox.geekhaven";
+    } else {
+      alert(`Coming soon to ${store}!`);
+    }
+  };
 
   return (
     <div className="flex justify-center space-x-4">
@@ -15,6 +19,5 @@ export function DownloadButtons() {
         Download on App Store
       </Button>
     </div>
-  )
+  );
 }
-
